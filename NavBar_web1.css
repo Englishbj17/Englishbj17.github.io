@@ -1,0 +1,14 @@
+<style>
+.leftnav{
+    z-index: 5;
+    float: left;
+    background-color: red;
+    height: 100%;
+    overflow-y: scroll;
+}
+.rightmain {
+    background-color: blue;
+    float: left;
+    height: 100%;
+}
+</style>
