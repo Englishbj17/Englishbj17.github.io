@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <!-- This will be element to which we add a class "open" whenever the hamburger button will be clicked -->
+<nav class="nav">
+    <div class="nav__container">
+        <!-- Your content: menu, info etc. -->
+   <a href="Index.html">Home</a>
+  <a href="Website_1.html">Site 1</a>
+  <a href="Website_2.html">Site 2</a>
+  <a href="Website_3.html">Site 3</a>
+    </div>
+</nav>
+    <style>
+    .nav {
+    /* Basic stuff for making the nav fullscreen */
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.nav__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* The main point: */
+    overflow-y: auto;
+    /* Optional but highly reccomended: enables momentum scrolling on iOS */
+}
+
+html {
+    /* For desktop */
+    overflow: hidden;
+}
+body {
+    overflow: visible;
+    height: 100%;
+}
+    </style>
+</html>
