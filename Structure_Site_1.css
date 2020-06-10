@@ -32,3 +32,12 @@
   padding: 20px;
   text-align: center;
   width: 94.5%;
+}
+
+
+.footer {
+    margin-top: 500px;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
